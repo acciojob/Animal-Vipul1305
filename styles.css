@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+.container{
+	width:100%;
+	display:grid;
+	grid-template-columns: repeat(3,25%);
+	justify-content:center;
+	gap:10px;
+}
+img{
+	width:100%;
+	border-radius: 20px ;
+}
+h1{
+	text-align:center;
+}
